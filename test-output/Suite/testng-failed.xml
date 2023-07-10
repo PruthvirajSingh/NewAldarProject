@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utility.LogResults"/>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.Person.UnitSelection">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="T002"/>
+          <include name="T001"/>
+          <include name="tearDown"/>
+          <include name="closeWindow"/>
+          <include name="logout"/>
+          <include name="T003"/>
+          <include name="extractDataExcleAndObjectOfClassCreations"/>
+          <include name="T0013"/>
+          <include name="T0012"/>
+          <include name="T009"/>
+          <include name="T0011"/>
+          <include name="T008"/>
+          <include name="T006"/>
+          <include name="T005"/>
+          <include name="beforeMethod"/>
+          <include name="T004"/>
+          <include name="T0010"/>
+          <include name="T007"/>
+        </methods>
+      </class> <!-- Test.Person.UnitSelection -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
